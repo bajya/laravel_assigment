@@ -1,0 +1,21 @@
+{
+  "name": "assessment/user-discounts",
+  "description": "User discounts package for assessment",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "UserDiscounts\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "illuminate/database": "^12.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "UserDiscounts\\UserDiscountsServiceProvider"
+      ]
+    }
+  }
+}
